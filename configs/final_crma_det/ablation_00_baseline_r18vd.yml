@@ -1,0 +1,6 @@
+# Ablation 00: RT-DETR-R18vd baseline.
+
+__include__:
+  - _base_rtdetr_carya.yml
+
+output_dir: ./outputs/final_crma_det/ablation_00_baseline_r18vd
