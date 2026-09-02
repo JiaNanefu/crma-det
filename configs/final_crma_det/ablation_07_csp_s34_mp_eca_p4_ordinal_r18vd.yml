@@ -1,0 +1,9 @@
+# Ablation 07: RT-DETR-R18vd + CSP-S34 + MP-ECA-P4 + ordinal supervision.
+
+__include__:
+  - _base_rtdetr_carya.yml
+  - _csp_s34.yml
+  - _mean_preserving_eca_p4.yml
+  - _ordinal_aux.yml
+
+output_dir: ./outputs/final_crma_det/ablation_07_csp_s34_mp_eca_p4_ordinal_r18vd

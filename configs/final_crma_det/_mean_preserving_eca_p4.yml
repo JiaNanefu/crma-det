@@ -1,0 +1,12 @@
+# Mean-preserving ECA-P4 on HybridEncoder final P4 only.
+
+HybridEncoder:
+  p4_eca:
+    enable: true
+    target_level: 1
+    channels: 256
+    kernel_size: 5
+    beta_init: 0.0
+    gated_residual: true
+    mode: mean_preserving
+    max_scale: 0.25

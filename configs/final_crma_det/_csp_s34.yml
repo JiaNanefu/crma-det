@@ -1,0 +1,8 @@
+# CSP-PResNet-S34 replacement for PResNet18-vd Stage3 and Stage4.
+
+PResNet:
+  csp:
+    enable: true
+    stages: [3, 4]
+    main_ratio: 0.75
+    keep_depth: true
